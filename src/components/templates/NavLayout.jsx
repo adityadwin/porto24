@@ -7,7 +7,7 @@ const NavLayout = ({ children }) => {
       <main
         className="pt-10 min-h-screen flex flex-col bg-[#071116] bg-repeat justify-center items-center"
         style={{
-          backgroundImage: `url('/src/assets/pattern.svg')`,
+          backgroundImage: `url('https://i.ibb.co.com/hFJ51Pf/pattern.png')`,
         }}
       >
         {children}

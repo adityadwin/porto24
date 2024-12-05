@@ -40,16 +40,16 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="w/12">
+      <div className="w-full">
         {" "}
         <div className="flex  justify-center items-center mt-24">
           <img
             className="w-screen h-full"
-            src="/src/assets/Me.png"
+            src="https://i.ibb.co.com/CPf9zht/Me.png"
             alt="profile"
           />
         </div>
-        <div className="min-w-screen h-12 bg-[#e8e3de] flex flex-row justify-center font-semibold text-lg hover:text-[#29657f] transition-all duration-300 ease-in-out">
+        <div className="h-12 bg-[#e8e3de] flex flex-row justify-center font-semibold text-lg hover:text-[#29657f] transition-all duration-300 ease-in-out">
           <Marquee speed={180}>
             <p className="mx-3">✦</p>
             <p className="mx-3">HTML</p>

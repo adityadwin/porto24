@@ -1,19 +1,22 @@
 import AboutLayout from "../templates/AboutLayout";
-
+import "../../App.css";
 const AboutPages = () => {
   return (
     <AboutLayout>
-      <div className="container flex flex-col ">
-        <div className="right bg-[#28292c] h-[330px] flex items-top justify-start mx-4 mb-8 rounded-xl">
+      <div className="container flex flex-col">
+        <div
+          id="right"
+          className="right bg-[#28292c] h-[330px] flex flex-row items-top justify-start mx-4 mb-8 rounded-xl"
+        >
           {/* Teks Nama yang Ditaruh Vertikal tanpa spasi ke bawah */}
-          <h1 className="transform -rotate-90 text-[33px] font-semibold -ms-5 text-[#f7f3f5] whitespace-nowrap">
+          <h1 className="transform -rotate-90 text-[33px] font-semibold -ms-3 text-[#f7f3f5] whitespace-nowrap">
             ADITYA DWI NANDRA
           </h1>
 
           {/* Teks 2 dan Years of Experience */}
           <div className=" flex flex-row items-center justify-center text-center">
-            <h2 className="text-[15rem] font-bold text-[#f7f3f5] -ms-64">2</h2>
-            <p className="text-2xl text-[#f7f3f5]">Years of Experience</p>
+            <h2 className="text-[10rem] font-bold text-[#f7f3f5] -ms-64">2</h2>
+            <p className="text-xl text-[#f7f3f5]">Years of Experience</p>
           </div>
         </div>
 
