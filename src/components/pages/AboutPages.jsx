@@ -34,7 +34,7 @@ const AboutPages = () => {
             <h1 className="text-3xl font-semibold">
               50+
               <br />
-              <span className="text-base font-normal">Clients Happy</span>
+              <span className="text-base font-normal">Happy Clients</span>
             </h1>
             <h1 className="text-3xl font-semibold">
               100+
