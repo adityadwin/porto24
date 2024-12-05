@@ -26,9 +26,11 @@ const AboutPages = () => {
             Who is <span className="text-[#50b4df]">Aditya Dwi Nandra?</span>
           </h1>
           <p className="mt-3 mb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            natus quos commodi voluptate quia soluta sequi accusantium illum id
-            temporibus?
+            I am a Frontend Developer with a degree in Informatics Engineering.
+            Skilled in HTML, CSS, JavaScript, ReactJS, and graphic design.
+            Passionate about building interactive, responsive websites and
+            enhancing user experiences through effective problem-solving and
+            collaboration.
           </p>
           <div className="count flex flex-row space-x-8">
             <h1 className="text-3xl font-semibold">

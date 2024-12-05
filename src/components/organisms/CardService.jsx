@@ -5,7 +5,7 @@ const Card = ({ icon, title, description }) => {
         {icon}
       </div>
       <h3 className="text-2xl font-bold text-center mb-2">{title}</h3>
-      <p className="text-gray-800 text-center text-base">{description}</p>
+      <p className="text-gray-800 text-center text-sm">{description}</p>
     </div>
   );
 };
@@ -21,7 +21,7 @@ const CardService = () => {
           </span>
         }
         title="Frontend Development"
-        description="Build responsive and dynamic websites using the latest technologies."
+        description="Crafting interactive, responsive websites using cutting-edge web technologies to deliver seamless and engaging user experiences."
       />
       <Card
         icon={
@@ -30,7 +30,7 @@ const CardService = () => {
           </span>
         }
         title="Graphic Design"
-        description="Create beautiful and user-friendly interfaces with an emphasis on user experience."
+        description="Designing captivating, user-centric visuals that combine creativity with functionality, elevating the overall user experience."
       />
       <Card
         icon={
@@ -39,7 +39,7 @@ const CardService = () => {
           </span>
         }
         title="UI/UX Design"
-        description="Develop interactive and modern web applications using React.js and other frontend tools."
+        description="Building intuitive, visually appealing interfaces with a focus on user interaction, ensuring a smooth and enjoyable digital journey."
       />
     </div>
   );
