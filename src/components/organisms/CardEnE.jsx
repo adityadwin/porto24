@@ -25,20 +25,20 @@ const CardEnE = () => {
         title="Education"
       >
         {/* List Pendidikan */}
-        <div className="space-y-4">
+        <div className="space-y-4 p-2">
           <div className="flex justify-between items-center space-x-2">
             {/* Bagian Kiri: Pendidikan */}
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg">
+              <h4 className="font-semibold text-base">
                 AKI University
                 <br />
-                <span className="text-sm font-normal">
+                <span className="text-xs font-normal">
                   Informatics Engineering | GPA 3.47/4.00
                 </span>
               </h4>
             </div>
             {/* Bagian Kanan: Tahun */}
-            <div className="text-sm text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
+            <div className="text-xs text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
               <p>2020 - 2024</p>
             </div>
           </div>
@@ -46,16 +46,16 @@ const CardEnE = () => {
           <div className="flex justify-between items-center">
             {/* Bagian Kiri: Pendidikan */}
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg">
+              <h4 className="font-semibold text-base">
                 SMKS Garuda Nusantara
                 <br />
-                <span className="text-sm font-normal">
+                <span className="text-xs font-normal">
                   Computer & Network Engineering
                 </span>
               </h4>
             </div>
             {/* Bagian Kanan: Tahun */}
-            <div className="text-sm text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
+            <div className="text-xs text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
               <p>2017 - 2020</p>
             </div>
           </div>
@@ -63,13 +63,13 @@ const CardEnE = () => {
           <div className="flex justify-between items-center">
             {/* Bagian Kiri: Pendidikan */}
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg">
+              <h4 className="font-semibold text-base">
                 SMPS Perguruan Rakyat 3
                 <br />
               </h4>
             </div>
             {/* Bagian Kanan: Tahun */}
-            <div className="text-sm text-[#28292c] -mt-2 bg-[#f5f5f6] rounded-xl p-2">
+            <div className="text-xs text-[#28292c] -mt-2 bg-[#f5f5f6] rounded-xl p-2">
               <p>2015 - 2017</p>
             </div>
           </div>
@@ -90,16 +90,16 @@ const CardEnE = () => {
           <div className="flex justify-between items-center space-x-2">
             {/* Bagian Kiri: Pendidikan */}
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg">
+              <h4 className="font-semibold text-base">
                 Freelance
                 <br />
-                <span className="text-sm font-normal">
+                <span className="text-xs font-normal">
                   Graphic Designer & IT Technician
                 </span>
               </h4>
             </div>
             {/* Bagian Kanan: Tahun */}
-            <div className="text-sm text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
+            <div className="text-xs text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
               <p>2021 - Present</p>
             </div>
           </div>
@@ -107,14 +107,14 @@ const CardEnE = () => {
           <div className="flex justify-between items-center">
             {/* Bagian Kiri: Pendidikan */}
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg">
+              <h4 className="font-semibold text-base">
                 Kodepedia Matari Studio
                 <br />
-                <span className="text-sm font-normal">Mentor | Internship</span>
+                <span className="text-xs font-normal">Mentor | Internship</span>
               </h4>
             </div>
             {/* Bagian Kanan: Tahun */}
-            <div className="text-sm text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
+            <div className="text-xs text-[#28292c] -mt-6 bg-[#f5f5f6] rounded-xl p-2">
               <p>Aug - Sep 2023</p>
             </div>
           </div>
@@ -122,7 +122,7 @@ const CardEnE = () => {
           <div className="flex justify-between items-center">
             {/* Bagian Kiri: Pendidikan */}
             <div className="flex flex-col">
-              <h4 className="font-semibold text-lg">
+              <h4 className="font-semibold text-base">
                 PT Ruang Raya Indonesia
                 <br />
                 <span className="text-xs font-normal">
@@ -131,7 +131,7 @@ const CardEnE = () => {
               </h4>
             </div>
             {/* Bagian Kanan: Tahun */}
-            <div className="text-sm text-[#28292c] -mt-3 bg-[#f5f5f6] rounded-xl p-2">
+            <div className="text-xs text-[#28292c] -mt-3 bg-[#f5f5f6] rounded-xl p-2">
               <p>Aug - Dec 2022</p>
             </div>
           </div>
