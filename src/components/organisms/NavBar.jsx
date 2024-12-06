@@ -9,6 +9,12 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const scrollToContact = () => {
+    const element = document.getElementById("contact");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <nav className="pt-3 pb-3 px-4 bg-[#071116] fixed w-screen z-50">
@@ -71,7 +77,12 @@ const Navbar = () => {
           <NavLink href="#projects" className="block">
             Projects
           </NavLink>
-          <Button className="w-full mt-2 font-semibold">Contact Me</Button>
+          <Button
+            onClick={scrollToContact}
+            className="w-full mt-2 font-semibold"
+          >
+            Contact Me
+          </Button>
         </div>
       )}
     </nav>
