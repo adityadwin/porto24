@@ -61,21 +61,21 @@ const ContactMe = () => {
                   <div className="p-4 bg-white rounded-full shadow-md">
                     <i className="fas fa-phone-alt text-white"></i>
                   </div>
-                  <p className="text-lg">+62 123 456 7890</p>
+                  <p className="text-lg">+62 881 866 5402</p>
                 </div>
                 {/* Icon 2 */}
                 <div className="flex items-center gap-4">
                   <div className="p-4 bg-white rounded-full shadow-md">
                     <i className="fas fa-envelope text-white"></i>
                   </div>
-                  <p className="text-lg">user@gmail.com</p>
+                  <p className="text-lg">adityadwinandra1@gmail.com</p>
                 </div>
                 {/* Icon 3 */}
                 <div className="flex items-center gap-4">
                   <div className="p-4 bg-white rounded-full shadow-md">
                     <i className="fab fa-instagram text-white"></i>
                   </div>
-                  <p className="text-lg">@user99_</p>
+                  <p className="text-lg">@adityadwn99_</p>
                 </div>
                 {/* Icon 4 */}
                 <div className="flex items-center gap-4">
