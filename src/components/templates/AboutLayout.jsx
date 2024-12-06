@@ -1,6 +1,6 @@
 const AboutLayout = ({ children }) => {
   return (
-    <div>
+    <div id="about">
       <main
         className="pt-10 min-h-screen flex flex-col bg-[#f7f3f5]  bg-repeat"
         style={{

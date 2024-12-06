@@ -62,14 +62,14 @@ const Navbar = () => {
           <NavLink href="#home" className="block">
             Home
           </NavLink>
+          <NavLink href="#service" className="block">
+            Services
+          </NavLink>
           <NavLink href="#about" className="block">
             About
           </NavLink>
-          <NavLink href="#services" className="block">
-            Services
-          </NavLink>
-          <NavLink href="#contact" className="block">
-            Contact
+          <NavLink href="#projects" className="block">
+            Projects
           </NavLink>
           <Button className="w-full mt-2 font-semibold">Contact Me</Button>
         </div>

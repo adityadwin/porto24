@@ -1,7 +1,7 @@
 // Komponen Card
 const Card = ({ icon, title, children }) => {
   return (
-    <div className="card bg-slate-200 shadow-md w-[100%] h-[390px] rounded-2xl flex flex-col justify-between items-center hover:bg-slate-300 transition-all duration-300 ease-in-out transform hover:scale-95">
+    <div className="card bg-white shadow-md w-[100%] h-[390px] rounded-2xl flex flex-col justify-between items-center  transition-all duration-300 ease-in-out transform hover:scale-95">
       <div className="icon text-center text-6xl mb-2">{icon}</div>
       <div className="flex flex-col items-center justify-between h-full">
         <h3 className="text-2xl font-bold text-center mb-2">{title}</h3>

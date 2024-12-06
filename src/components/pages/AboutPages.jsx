@@ -15,7 +15,7 @@ const AboutPages = () => {
 
           {/* Teks 2 dan Years of Experience */}
           <div className=" flex flex-row items-center justify-center text-center">
-            <h2 className="text-[10rem] font-bold text-[#f7f3f5] -ms-64">2</h2>
+            <h2 className="text-[10rem] font-bold text-[#f7f3f5] -ms-64">1</h2>
             <p className="text-xl text-[#f7f3f5]">Years of Experience</p>
           </div>
         </div>
@@ -25,7 +25,7 @@ const AboutPages = () => {
           <h1 className="text-5xl font-semibold">
             Who is <span className="text-[#50b4df]">Aditya Dwi Nandra?</span>
           </h1>
-          <p className="mt-3 mb-3">
+          <p className="mt-3 mb-3 text-justify">
             I am a Frontend Developer with a degree in Informatics Engineering.
             Skilled in HTML, CSS, JavaScript, ReactJS, and graphic design.
             Passionate about building interactive, responsive websites and
