@@ -17,8 +17,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="pt-3 pb-3 px-4 bg-[#071116] fixed w-screen z-50">
-      <div className="flex items-center justify-between max-w-7xl mx-auto">
+    <nav className="pt-3 pb-3 lg:px-14 px-4 bg-[#071116] fixed w-screen z-50">
+      <div className="flex items-center justify-between mx-auto">
         {/* Logo */}
         <Logo />
 
@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Tampil di tablet (md) dan desktop (lg) */}
           <NavLink href="#home">Home</NavLink>
           <NavLink href="#about">About</NavLink>
-          <NavLink href="#services">Services</NavLink>
+          <NavLink href="#service">Services</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </div>
 

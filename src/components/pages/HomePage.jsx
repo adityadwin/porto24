@@ -5,18 +5,18 @@ import Marquee from "react-fast-marquee";
 const HomePage = () => {
   return (
     <NavLayout>
-      <div className="w-screen">
-        <div className="text-center mt-24 px-4 ">
-          <h2 className="text-5xl font-normal text-[#f7f3f5] text-left">
+      <div className="w-screen ">
+        <div className="text-center mt-24 lg:mt-16 px-4  ">
+          <h2 className="text-5xl lg:text-5xl font-normal text-[#f7f3f5] text-left lg:items-center lg:justify-center lg:flex ">
             Hello👋
           </h2>
-          <h1 className="text-6xl font-semibold text-[#f7f3f5] text-left">
+          <h1 className="text-6xl lg:text-7xl font-semibold text-[#f7f3f5] text-left lg:text-center ">
             I&apos;m{" "}
             <span className="text-[#50b4df] underline">
               Aditya,
               <br />
             </span>
-            <span className="text-[31px]">
+            <span className="text-[31px] lg:text-[70px] lg:font-normal ">
               {" "}
               <TypeAnimation
                 sequence={[
@@ -42,9 +42,9 @@ const HomePage = () => {
 
       <div className="w-full">
         {" "}
-        <div className="flex  justify-center items-center mt-24">
+        <div className="flex justify-center items-center lg:-mt-3 mt-24">
           <img
-            className="w-screen h-full"
+            className="w-screen h-full lg:h-[600px] lg:w-[600px]"
             src="https://i.ibb.co.com/CPf9zht/Me.png"
             alt="profile"
           />
