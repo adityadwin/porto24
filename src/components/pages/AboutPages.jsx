@@ -2,21 +2,13 @@ import AboutLayout from "../templates/AboutLayout";
 import "../../App.css";
 
 const AboutPages = () => {
-  const downloadCV = () => {
-    // Tentukan URL file PDF Anda
-    const fileUrl = "/cv-aditya-dwi-nandra.pdf";
-
-    // Buat request untuk file PDF
-    fetch(fileUrl)
-      .then((response) => response.blob()) // Ambil file sebagai blob
-      .then((blob) => {
-        // Gunakan Blob untuk mengunduh file
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = "Aditya-Dwi-Nandra-CV.pdf";
-        link.click();
-      })
-      .catch((err) => console.error("Error downloading the file:", err));
+  // Fungsi untuk memulai unduhan otomatis
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href =
+      "https://drive.google.com/uc?id=1eDGQQK9Z_temo5xFBlqDXH7HcZ0eba6f&export=download";
+    link.download = "cv-aditya-dwi-nandra.pdf"; // Nama file untuk diunduh
+    link.click();
   };
 
   return (
@@ -32,7 +24,7 @@ const AboutPages = () => {
           </h1>
 
           {/* Teks 2 dan Years of Experience */}
-          <div className=" flex flex-row items-center justify-center text-center">
+          <div className="flex flex-row items-center justify-center text-center">
             <h2 className="text-[10rem] font-bold text-[#f7f3f5] -ms-64">1</h2>
             <p className="text-xl text-[#f7f3f5]">Years of Experience</p>
           </div>
@@ -62,10 +54,9 @@ const AboutPages = () => {
               <span className="text-base font-normal">Projects Completed</span>
             </h1>
           </div>
-
-          {/* Tombol Download CV */}
+          {/* Tombol Unduhan CV */}
           <button
-            onClick={downloadCV} // Fungsi untuk mendownload CV
+            onClick={handleDownload}
             className="px-4 py-2 text-[#f7f3f5] bg-[#50b4df] rounded-2xl hover:bg-[#529cbb] mb-4 mt-4"
           >
             Download CV
