@@ -62,6 +62,10 @@ const HomePage = () => {
             <p className="mx-3">✦</p>
             <p className="mx-3">NodeJS</p>
             <p className="mx-3">✦</p>
+            <p className="mx-3">PHP</p>
+            <p className="mx-3">✦</p>
+            <p className="mx-3">MySQL</p>
+            <p className="mx-3">✦</p>
             <p className="mx-3">Wordpress</p>
             <p className="mx-3">✦</p>
             <p className="mx-3">Adobe Photoshop</p>
