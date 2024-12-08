@@ -41,7 +41,7 @@ const CardService = () => {
             <img src="../../../images/icons/ui.png" alt="ui/ux" />
           </span>
         }
-        title="UI/UX Design"
+        title="Web Design"
         description="Building intuitive, visually appealing interfaces with a focus on user interaction, ensuring a smooth and enjoyable digital journey."
       />
     </div>

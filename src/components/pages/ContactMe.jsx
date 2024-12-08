@@ -45,7 +45,7 @@ const ContactMe = () => {
           <div className="flex flex-col md:flex-row gap-12">
             {/* Sisi Kiri */}
             <div className="md:w-1/2 text-white p-2 mt-2">
-              <h1 className="text-2xl font-semibold mb-6">- Contact Me</h1>
+              <h1 className="text-2xl font-semibold mb-6">- Hire Me</h1>
               <p className="text-5xl mb-6 font-semibold">
                 Let&apos;s <span className="text-[#071116]">connect</span> &{" "}
                 <span className="text-[#071116]">collaborate</span>

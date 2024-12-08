@@ -41,7 +41,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("contact")}
             className="w-full mt-2 font-semibold rounded-3xl"
           >
-            Contact Me
+            Hire Me
           </Button>
         </div>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("contact")}
             className="w-full mt-2 font-semibold"
           >
-            Contact Me
+            Hire Me
           </Button>
         </div>
       )}
