@@ -1,25 +1,27 @@
 const Card = ({ image, title, description, texts, reverse }) => {
   return (
     <div
-      className={`card bg-white shadow-md w-full rounded-2xl flex flex-col lg:flex-row md:flex-row md:${
+      className={`card bg-white shadow-md w-full rounded-2xl flex flex-col lg:${
+        reverse ? "flex-row-reverse" : "flex-row"
+      } md:${
         reverse ? "flex-row-reverse" : "flex-row"
       } overflow-hidden hover:shadow-lg transition-all duration-300 ease-in-out`}
     >
       {/* Bagian Gambar */}
-      <div className="w-full md:w-1/2 h-[200px] md:h-full p-2 ">
+      <div className="w-full lg:w-1/2 md:w-1/2 h-[200px] md:h-full lg:h-full p-2">
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover rounded-xl "
+          className="w-full h-full object-cover rounded-xl"
         />
       </div>
       {/* Bagian Konten */}
-      <div className="p-4 flex flex-col justify-between w-full md:w-1/2">
+      <div className="p-4 flex flex-col justify-between w-full lg:w-1/2 md:w-1/2">
         <div>
-          <h3 className="text-xl font-semibold mb-2 ">{title}</h3>
+          <h3 className="text-xl font-semibold mb-2">{title}</h3>
           <p className="text-sm text-gray-600 mb-4">{description}</p>
         </div>
-        <div className="flex space-x-4 text-sm text-[#ffff] ">
+        <div className="flex space-x-4 text-sm text-[#ffff]">
           {texts.map((text, index) => (
             <span key={index} className="bg-[#50b4df] w-auto p-2 rounded-xl">
               {text}
@@ -90,7 +92,7 @@ const AllCardProject = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col gap-6">
+    <div className="container mx-auto px-4 lg:px-20 py-8 flex flex-col gap-6">
       {projects.map((project, index) => (
         <Card
           key={index}

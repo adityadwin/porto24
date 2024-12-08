@@ -12,7 +12,7 @@ const AllProjects = () => {
   return (
     <AllProjectLayout>
       <div className="container flex flex-col">
-        <div className="left px-4">
+        <div className="left px-4 lg:px-20">
           <Link to="/">
             <h2 className="text-2xl font-semibold mb-3 text-white">- Back</h2>
           </Link>

@@ -1,11 +1,11 @@
-const NavLink = ({ href, children, className = "" }) => {
+const NavLink = ({ onClick, children, className = "" }) => {
   return (
-    <a
-      href={href}
-      className={`text-[#f7f3f5] hover:text-blue-500 ${className}`}
+    <button
+      onClick={onClick}
+      className={`text-[#f7f3f5] hover:text-blue-500 ${className} focus:outline-none`}
     >
       {children}
-    </a>
+    </button>
   );
 };
 

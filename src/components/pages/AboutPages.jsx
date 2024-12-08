@@ -26,7 +26,7 @@ const AboutPages = () => {
           {/* Teks 2 dan Years of Experience */}
           <div className="flex flex-row items-center justify-center text-center">
             <h2 className="text-[10rem] lg:text-[20rem] font-bold text-[#f7f3f5] lg:-ms-[440px] -ms-64">
-              1
+              2
             </h2>
             <p className="text-xl lg:text-4xl text-[#f7f3f5]">
               Years of Experience
@@ -41,16 +41,19 @@ const AboutPages = () => {
           </h1>
           <p className="mt-3 mb-3 lg:text-lg text-justify">
             I am a Frontend Developer with a degree in Informatics Engineering.
-            Skilled in HTML, CSS, JavaScript, ReactJS, and graphic design.
-            Passionate about building interactive, responsive websites and
+            Skilled in HTML, CSS, JavaScript, ReactJS, and graphic design. I am
+            passionate about building interactive, responsive websites and
             enhancing user experiences through effective problem-solving and
-            collaboration.
+            collaboration. Additionally, I have successfully delivered graphic
+            design services to over 50 clients, showcasing a proven ability to
+            understand client needs and translate them into compelling visuals
+            that drive impact.
           </p>
           <div className="count flex flex-row space-x-8">
             <h1 className="text-3xl font-semibold">
               50+
               <br />
-              <span className="text-base font-normal">Happy Clients</span>
+              <span className="text-base font-normal">Clients</span>
             </h1>
             <h1 className="text-3xl font-semibold">
               100+

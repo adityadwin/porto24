@@ -40,11 +40,11 @@ const ContactMe = () => {
 
   return (
     <ContactLayout>
-      <div id="contact" className="container mx-auto">
+      <div className="container mx-auto">
         <div className="bg-gradient-to-r from-[#50b4df] to-[#4c85f6] px-4 md:p-12">
           <div className="flex flex-col md:flex-row gap-12">
             {/* Sisi Kiri */}
-            <div className="md:w-1/2 text-white p-2 mt-10">
+            <div className="md:w-1/2 text-white p-2 mt-2">
               <h1 className="text-2xl font-semibold mb-6">- Contact Me</h1>
               <p className="text-5xl mb-6 font-semibold">
                 Let&apos;s <span className="text-[#071116]">connect</span> &{" "}

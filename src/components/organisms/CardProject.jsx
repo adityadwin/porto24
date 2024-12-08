@@ -1,8 +1,10 @@
 const Card = ({ image, title, description, texts, reverse }) => {
   return (
     <div
-      className={`card bg-white shadow-md w-full rounded-2xl flex flex-col lg:flex-row md:flex-row md:${
-        reverse ? "flex-row-reverse" : "flex-row"
+      className={`card bg-white shadow-md w-full rounded-2xl flex flex-col ${
+        reverse
+          ? "lg:flex-row-reverse md:flex-row-reverse"
+          : "lg:flex-row md:flex-row"
       } overflow-hidden hover:shadow-lg transition-all duration-300 ease-in-out`}
     >
       {/* Bagian Gambar */}
@@ -38,7 +40,7 @@ const CardProject = () => {
         "https://www.shutterstock.com/image-photo/calm-weather-on-sea-ocean-600nw-2212935531.jpg",
       title: "Project A",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
       texts: ["HTML", "CSS", "ReactJS"],
       reverse: false,
     },
@@ -47,7 +49,7 @@ const CardProject = () => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFCcVRGLovbSiHrgEejCUJDEWf4obMaFU1ag&s",
       title: "Project B",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum The Extremes of Good and Evil by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum.",
       texts: ["JavaScript", "TailwindCSS", "NodeJS"],
       reverse: true,
     },

@@ -17,7 +17,10 @@ const CardService = () => {
       <Card
         icon={
           <span role="img" aria-label="html">
-            🌐
+            <img
+              src="../../../images/icons/web.png"
+              alt="Frontend Development"
+            />
           </span>
         }
         title="Frontend Development"
@@ -26,7 +29,7 @@ const CardService = () => {
       <Card
         icon={
           <span role="img" aria-label="css">
-            🎨
+            <img src="../../../images/icons/gd.png" alt="graphic design" />
           </span>
         }
         title="Graphic Design"
@@ -35,7 +38,7 @@ const CardService = () => {
       <Card
         icon={
           <span role="img" aria-label="react">
-            ⚛️
+            <img src="../../../images/icons/ui.png" alt="ui/ux" />
           </span>
         }
         title="UI/UX Design"

@@ -9,8 +9,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  const scrollToContact = () => {
-    const element = document.getElementById("contact");
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -25,16 +26,23 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className="hidden md:flex lg:flex space-x-4">
           {/* Tampil di tablet (md) dan desktop (lg) */}
-          <NavLink href="#home">Home</NavLink>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#service">Services</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          <NavLink onClick={() => scrollToSection("home")}>Home</NavLink>
+          <NavLink onClick={() => scrollToSection("about")}>About</NavLink>
+          <NavLink onClick={() => scrollToSection("service")}>Services</NavLink>
+          <NavLink onClick={() => scrollToSection("projects")}>
+            Projects
+          </NavLink>
         </div>
 
         {/* CTA Button */}
         <div className="hidden md:block lg:block">
           {/* Tampil di tablet dan desktop */}
-          <Button>Contact Me</Button>
+          <Button
+            onClick={() => scrollToSection("contact")}
+            className="w-full mt-2 font-semibold rounded-3xl"
+          >
+            Contact Me
+          </Button>
         </div>
 
         {/* Hamburger Menu (hanya di mobile <768px) */}
@@ -65,20 +73,23 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="mt-4 space-y-4 md:hidden">
           {/* Hidden di tablet */}
-          <NavLink href="#home" className="block">
+          <NavLink onClick={() => scrollToSection("home")} className="block">
             Home
           </NavLink>
-          <NavLink href="#service" className="block">
-            Services
-          </NavLink>
-          <NavLink href="#about" className="block">
+          <NavLink onClick={() => scrollToSection("about")} className="block">
             About
           </NavLink>
-          <NavLink href="#projects" className="block">
+          <NavLink onClick={() => scrollToSection("service")} className="block">
+            Services
+          </NavLink>
+          <NavLink
+            onClick={() => scrollToSection("projects")}
+            className="block"
+          >
             Projects
           </NavLink>
           <Button
-            onClick={scrollToContact}
+            onClick={() => scrollToSection("contact")}
             className="w-full mt-2 font-semibold"
           >
             Contact Me
