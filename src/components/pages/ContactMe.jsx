@@ -40,8 +40,8 @@ const ContactMe = () => {
 
   return (
     <ContactLayout>
-      <div className="container mx-auto">
-        <div className=" px-4 md:p-12 w-full">
+      <div className="container w-full  md:mb-4">
+        <div className=" px-4 md:pt-12 w-full">
           <div className="flex flex-col md:flex-row gap-12">
             {/* Sisi Kiri */}
             <div className="md:w-1/2 text-white p-2 mt-2">

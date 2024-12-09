@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <FooterLayout>
-      <div className="container mx-auto lg:justify-between lg:px-14 lg:items-center lg:flex px-5 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="container mx-auto lg:justify-between lg:px-14 md:px-4 lg:items-center lg:flex px-5 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Sesi 1: Title, Deskripsi, dan Icon */}
         <div className="flex flex-col space-y-4">
           <h2 className="text-xl font-semibold">PORTOFOLIO</h2>
