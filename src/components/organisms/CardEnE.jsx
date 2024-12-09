@@ -14,7 +14,7 @@ const Card = ({ icon, title, children }) => {
 // Komponen CardEnE untuk Pendidikan dan Pengalaman
 const CardEnE = () => {
   return (
-    <div className="container flex flex-col lg:flex-row lg:px-14 h-full lg:space-x-10 justify-center items-center px-4 bg-gradient-to-r from-[#50b4df] to-[#4c85f6]">
+    <div className="container flex flex-col lg:flex-row md:flex-row lg:px-14  md:space-x-10 h-full w-screen lg:space-x-10 justify-center mx-auto items-center px-4">
       {/* Card Pendidikan */}
       <Card
         icon={

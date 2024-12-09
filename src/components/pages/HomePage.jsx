@@ -7,10 +7,10 @@ const HomePage = () => {
     <NavLayout>
       <div id="home" className="w-screen">
         <div className="text-center mt-10 lg:mt-16 px-4  ">
-          <h2 className="text-5xl lg:text-5xl font-normal text-[#f7f3f5] text-left lg:items-center lg:justify-center lg:flex ">
+          <h2 className="text-5xl lg:text-5xl font-normal text-[#f7f3f5] text-left lg:items-center md:text-center lg:justify-center lg:flex ">
             Hello👋
           </h2>
-          <h1 className="text-6xl lg:text-7xl font-semibold text-[#f7f3f5] text-left lg:text-center ">
+          <h1 className="text-6xl lg:text-7xl font-semibold text-[#f7f3f5] text-left lg:text-center md:text-center">
             I&apos;m{" "}
             <span className="text-[#50b4df] underline">
               Aditya,
@@ -44,7 +44,7 @@ const HomePage = () => {
         {" "}
         <div className="flex justify-center items-center lg:-mt-3 mt-2">
           <img
-            className="w-screen h-full lg:h-[600px] lg:w-[600px]"
+            className="w-screen h-full lg:h-[600px] lg:w-[600px] md:h-[500px] md:w-[500px]"
             src="https://i.ibb.co.com/CPf9zht/Me.png"
             alt="profile"
           />
