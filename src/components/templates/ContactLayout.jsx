@@ -1,12 +1,7 @@
 const ContactLayout = ({ children }) => {
   return (
     <div id="contact">
-      <main
-        className="pt-10 lg:h-[650px] h-full flex flex-col bg-[#f7f3f5]  bg-repeat"
-        style={{
-          backgroundImage: `url('https://i.ibb.co.com/hFJ51Pf/pattern.png')`,
-        }}
-      >
+      <main className="h-full flex flex-col  bg-gradient-to-r from-[#50b4df] to-[#4c85f6] bg-repeat">
         {children}
       </main>
     </div>

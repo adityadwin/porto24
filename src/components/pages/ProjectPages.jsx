@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProjectPages = () => {
   return (
     <ProjectsLayout>
-      <div className="container flex flex-col lg:px-10">
+      <div className="container flex flex-col mx-auto lg:px-10">
         <div className="left px-4 ">
           <h2 className="text-xl font-semibold mb-3">- Projects</h2>
           <div className="flex flex-row justify-center items-center lg:justify-between  space-x-2">

@@ -13,7 +13,7 @@ const AboutPages = () => {
 
   return (
     <AboutLayout>
-      <div className="container flex flex-col lg:flex-row md:flex-row lg:px-44 md:px-4">
+      <div className="container flex flex-col mx-auto lg:flex-row md:flex-row lg:px-44 md:px-4">
         <div
           id="right"
           className="right bg-[#28292c] h-[330px] lg:h-[500px] lg:w-1/2 md:w-1/2  flex flex-row items-top justify-start mx-4 mb-8 rounded-xl"

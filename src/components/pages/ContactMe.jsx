@@ -41,7 +41,7 @@ const ContactMe = () => {
   return (
     <ContactLayout>
       <div className="container mx-auto">
-        <div className="bg-gradient-to-r from-[#50b4df] to-[#4c85f6] px-4 md:p-12">
+        <div className=" px-4 md:p-12 w-full">
           <div className="flex flex-col md:flex-row gap-12">
             {/* Sisi Kiri */}
             <div className="md:w-1/2 text-white p-2 mt-2">
