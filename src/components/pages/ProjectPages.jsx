@@ -10,7 +10,7 @@ const ProjectPages = () => {
           <div className="flex flex-row justify-center items-center lg:justify-between  space-x-2">
             {" "}
             <h1 className="text-4xl lg:text-5xl font-semibold">
-              My <span className="text-[#50b4df]">Latest Projects</span>
+              My <span className="text-[#50b4df]">Projects</span>
             </h1>
             <Link
               to="/all-projects"

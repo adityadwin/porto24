@@ -21,6 +21,21 @@ const ContactMe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const { name, email, phone, message } = formData;
+
+    // Validasi bahwa semua field diisi
+    if (!name || !email || !phone || !message) {
+      alert("All fields are required. Please fill out the entire form.");
+      return;
+    }
+
+    // Validasi format email
+    if (!email.includes("@")) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    // Kirim form jika semua field valid
     emailjs
       .sendForm(
         "service_h9bqkz9", // Replace with your EmailJS service ID
@@ -31,6 +46,13 @@ const ContactMe = () => {
       .then(
         () => {
           alert("Message sent successfully!");
+          // Reset form setelah berhasil terkirim
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
         },
         () => {
           alert("Message failed to send, please try again later.");
@@ -41,7 +63,7 @@ const ContactMe = () => {
   return (
     <ContactLayout>
       <div className="container w-full  md:mb-4">
-        <div className=" px-4 md:pt-12 w-full">
+        <div className=" px-4 lg:px-12 md:pt-12 w-full">
           <div className="flex flex-col md:flex-row gap-12">
             {/* Sisi Kiri */}
             <div className="md:w-1/2 text-white p-2 mt-2">
@@ -55,25 +77,25 @@ const ContactMe = () => {
               </blockquote>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <div className="rounded-full w-12 h-12">
+                  <div className="rounded-full w-10 h-10">
                     <img src="../../../images/icons/wa.png" alt="" />
                   </div>
                   <p className="text-lg">+62 881 866 5402</p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="rounded-full w-12 h-12">
+                  <div className="rounded-full w-10 h-10">
                     <img src="../../../images/icons/mail.png" alt="" />
                   </div>
                   <p className="text-lg">adityadwinandra1@gmail.com</p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="prounded-full w-12 h-12">
+                  <div className="prounded-full w-10 h-10">
                     <img src="../../../images/icons/ig.png" alt="" />
                   </div>
                   <p className="text-lg">@adityadwn99_</p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="rounded-full w-12 h-12">
+                  <div className="rounded-full w-10 h-10">
                     <img src="../../../images/icons/loc.png" alt="" />
                   </div>
                   <p className="text-lg">Grobogan, Jawa Tengah</p>
