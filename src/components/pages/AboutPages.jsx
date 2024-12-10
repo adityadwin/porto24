@@ -6,7 +6,7 @@ const AboutPages = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?id=1eDGQQK9Z_temo5xFBlqDXH7HcZ0eba6f&export=download";
+      "https://drive.google.com/uc?id=1VwsSRYeREGW22GdeHRNnuZ9T0KedITWH&export=download";
     link.download = "cv-aditya-dwi-nandra.pdf"; // Nama file untuk diunduh
     link.click();
   };
