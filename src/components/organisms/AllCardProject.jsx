@@ -189,7 +189,7 @@ const AllCardProject = () => {
       ],
       title: "Website Yu-Gi-Oh Card Deck",
       description:
-        "TOne of the final projects in the MSIB Independent Study activity of Ruang Guru is to create a YU-Gi-Oh website using RestAPI and implementing asynchronous with ReactJS. This website has a filter feature to make it easier for users to search for the desired YU-Gi-Oh cards, as well as displaying complete card details when clicked. Through the use of ReactJS and RestAPI technology, this project provides a fun interactive experience for YU-Gi-Oh fans to explore the world of cards.",
+        "One of the final projects in the MSIB Independent Study activity of Ruang Guru is to create a YU-Gi-Oh website using RestAPI and implementing asynchronous with ReactJS. This website has a filter feature to make it easier for users to search for the desired YU-Gi-Oh cards, as well as displaying complete card details when clicked. Through the use of ReactJS and RestAPI technology, this project provides a fun interactive experience for YU-Gi-Oh fans to explore the world of cards.",
       texts: ["ReactJS", "Tailwind CSS", "Rest API"],
       reverse: false,
     },
