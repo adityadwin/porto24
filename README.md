@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website  
 
-A modern and responsive portfolio website built with **ReactJS** and styled using **Tailwind CSS**. This project showcases my skills, projects, and experiences in a clean and professional design.  
+A modern and responsive portfolio website built with **ReactJS** and styled using **Tailwind CSS**. This project showcases my skills, projects, and experiences in a clean and professional design  
 
 ---
 
